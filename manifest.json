@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Extract Passwords",
+    "description": "Securely export your browser saved passwords to excel",
+    "version": "1.0.0",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Extract Passwords",
+        "default_icon": "icon.png"
+    }
+}
